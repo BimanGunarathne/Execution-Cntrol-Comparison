@@ -9,3 +9,7 @@ $[0b;a:42;a:43]
 z:0
 $[z=0;1.1;-1.1]
 $[z;1.1;-1.1] //equivalent to previous
+
+v:0N
+$[v;`isnull;`notnull]
+$[null v;`isnull;`notnull]

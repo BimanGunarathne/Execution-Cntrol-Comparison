@@ -1,5 +1,5 @@
 public class example {
-    @SuppressWarnings("unused")
+    @SuppressWarnings({ "unused", "null" })
     public static void main(String[] args) {
         if (true) {
             int num1 = 42;
@@ -23,5 +23,18 @@ public class example {
         } else {
             System.out.println(-1.1);
         }
+        // -----------------------------------------
+        Object v = null;
+        // if ((boolean) v) {
+        //     System.out.println("isnull");
+        // } else {
+        //     System.out.println("notnull");
+        // }
+        if (v == null) {
+            System.out.println("isnull");
+        } else {
+            System.out.println("notnull");
+        }
+        // --------------if false---------------------
     }
 }
