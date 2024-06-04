@@ -8,5 +8,13 @@ public class example {
             int num2 = 9*6;
             System.out.println(num2);
         }
+        // ---------------if false----------------
+        if (false) {
+            int num1 = 42;
+            System.out.println(num1);
+        } else {
+            int num2 = 9*6;
+            System.out.println(num2);
+        }
     }
 }
