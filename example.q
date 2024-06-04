@@ -16,3 +16,4 @@ $[null v;`isnull;`notnull]
 
 v:42
 $[v=42;[a:6;b:7;`Everything];[a:`Life;b:`the;c:`Universe;a,b,c]]
+$[v=43; [a:6;b:7;`everything]; [a:`Life;b:`the;c:`Universe;a,b,c]]
