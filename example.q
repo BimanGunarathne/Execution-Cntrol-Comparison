@@ -13,3 +13,6 @@ $[z;1.1;-1.1] //equivalent to previous
 v:0N
 $[v;`isnull;`notnull]
 $[null v;`isnull;`notnull]
+
+v:42
+$[v=42;[a:6;b:7;`Everything];[a:`Life;b:`the;c:`Universe;a,b,c]]
