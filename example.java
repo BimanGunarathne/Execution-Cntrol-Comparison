@@ -35,6 +35,6 @@ public class example {
         } else {
             System.out.println("notnull");
         }
-        // --------------if false---------------------
+        // ------------------------------------------
     }
 }
